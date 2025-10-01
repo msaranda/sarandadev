@@ -4,46 +4,7 @@ import matter from 'gray-matter';
 import Link from 'next/link';
 
 function getPosts() {
-  const postsDirectory = path.join(process.cwd(), 'posts');
-  
-  // Create posts directory if it doesn't exist
-  if (!fs.existsSync(postsDirectory)) {
-    fs.mkdirSync(postsDirectory);
-    // Create a starter post
-    const starterPost = `---
-title: "Ship First, Think Later"
-date: "2024-01-01"
-excerpt: "Why I stopped planning and started shipping"
----
-
-# Ship First, Think Later
-
-I spent years planning the perfect product. Reading about frameworks. Comparing architectures. 
-
-You know what I built? Nothing.
-
-Today that changes. This blog is ugly. It works. That's enough.
-
-## The Problem
-
-My brain generates 50 ideas per hour. I execute 0.
-
-## The Solution  
-
-Public accountability. Ship broken things. Fix in public.
-
-## What's Next
-
-Tomorrow I ship something else. Even uglier. Even more broken.
-
-But it will exist. And that's infinitely better than perfect plans.`;
-    
-    fs.writeFileSync(
-      path.join(postsDirectory, 'ship-first.md'),
-      starterPost
-    );
-  }
-  
+  const postsDirectory = path.join(process.cwd(), 'posts'); 
   const fileNames = fs.readdirSync(postsDirectory);
   const allPosts = fileNames
     .filter(fileName => fileName.endsWith('.md'))
