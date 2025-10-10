@@ -1,3 +1,9 @@
+---
+title: "Clean Workspace rules"
+date: "2025.10.10"
+excerpt: "maintain a clean work environment and promote good habits"
+---
+
 # Clean Workspace rules
 
 The purpose of this document is to build rules in order to maintain a clean work environment and promote good habits.
