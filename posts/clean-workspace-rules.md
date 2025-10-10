@@ -27,6 +27,14 @@ Today is day one!
 - [ ] For 7 days -> keep the Downloads directory empty
 - [ ] Task -> Provide the rest of the plan
 
+### The reward
+If I manage to work on this habits for the next month with 90% of success rate, I will be approved to reserve 3 hours for one of these improvements to my website:
+- Digital Garden website
+- Habit tracking website
+- New format of subpages (react components can now be injected dynamically)
+
+This habits still can be extended and improved, but the main goal is to achieve one month.
+
 ### Tracking
 Track it here: https://github.com/msaranda/sarandadev/tree/master/posts/habits
 
