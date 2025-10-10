@@ -77,7 +77,7 @@ export default function Home() {
         fontSize: '12px',
         color: '#666'
       }}>
-        <p>Building in public. Follow the journey on <a href="https://github.com/yourusername" style={{ color: '#000' }}>GitHub</a></p>
+        <p>Building in public. Follow the journey on <a href="https://github.com/msaranda/sarandadev" style={{ color: '#000' }}>GitHub</a></p>
       </footer>
     </main>
   );
